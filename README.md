@@ -18,12 +18,6 @@ BetterOptimization es un mod avanzado creado para mejorar el rendimiento de Geom
 - **No Particles**  
   Apaga completamente todas las particulas del juego, tanto decorativas como funcionales. Esta opcion es extremadamente util en niveles que abusan de particulas para crear efectos de ambiente o de destruccion. Mejora significativamente el rendimiento en dispositivos lentos.
 
-- **Enable TPS Bypass**  
-  Activa la posibilidad de cambiar manualmente los TPS (Ticks por segundo), que definen la cantidad de veces que se actualiza la logica del juego por segundo. Aumentar los TPS puede mejorar la precision de los controles y suavizar la sensacion de juego.
-
-- **TPS Bypass (Hz)**  
-  Permite establecer un valor personalizado de TPS. Un TPS mas alto hace que el juego responda de manera mas rapida a las entradas del jugador, pero puede aumentar el uso de CPU. Se recomienda un valor entre 120 y 1000 Hz para una experiencia equilibrada.
-
 - **Enable FPS Bypass**  
   Activa el sistema de FPS Bypass, que permite desbloquear el limite de 60 FPS del juego. Es util para pantallas de alta tasa de refresco y mejora la suavidad visual en general.
 
@@ -49,12 +43,6 @@ BetterOptimization is an advanced mod built to enhance Geometry Dash's performan
 
 - **No Particles**  
   Disables all particle effects in the game, both decorative and functional. Extremely helpful for levels overloaded with ambient or explosion particles. Greatly enhances performance on weaker devices.
-
-- **Enable TPS Bypass**  
-  Allows manual control of the game's TPS (Ticks Per Second), which determines how frequently game logic is updated. A higher TPS can improve control responsiveness and overall fluidity.
-
-- **TPS Bypass (Hz)**  
-  Lets you define a custom TPS value. Higher TPS improves gameplay responsiveness but may increase CPU usage. A balanced range is between 120 and 1000 Hz for most cases.
 
 - **Enable FPS Bypass**  
   Unlocks the default 60 FPS cap of the game, allowing smoother visuals on high refresh rate displays.
