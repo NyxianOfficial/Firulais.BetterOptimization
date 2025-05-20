@@ -1,8 +1,7 @@
+#include <Geode/Geode.hpp>
 #include <Geode/modify/GJBaseGameLayer.hpp>
 #include <Geode/modify/LevelEditorLayer.hpp>
 #include <Geode/modify/PlayLayer.hpp>
-
-#include <sinaps.hpp>
 
 constexpr float MIN_TPS = 0.f;
 constexpr float MAX_TPS = 100000.f;
