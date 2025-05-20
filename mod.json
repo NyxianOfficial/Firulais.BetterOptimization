@@ -1,0 +1,68 @@
+{
+  "geode": "4.4.0",
+  "gd": {
+    "win": "2.2074",
+    "android": "2.2074",
+    "mac": "2.2074",
+    "ios": "2.2074"
+  },
+  "id": "firulaisgd.betteroptimization",
+  "name": "BetterOptimization",
+  "version": "v1.0.1",
+  "developer": "FirulaisGD",
+  "description": "This mod tries to optimize the level.",
+  "settings": {
+    "noglow": {
+      "name": "No Glow",
+      "type": "bool",
+      "default": false,
+      "description": "Disables object glow for better performance."
+    },
+    "nomirror": {
+      "name": "No Mirror",
+      "type": "bool",
+      "default": false,
+      "description": "Disables object mirror for better gameplay."
+    },
+    "novehicleparticles": {
+      "name": "No Vehicle Particles",
+      "type": "bool",
+      "default": false,
+      "description": "Disables vehicle particles for better performance."
+    },
+    "noparticles": {
+      "name": "No Particles",
+      "type": "bool",
+      "default": false,
+      "description": "Disables all particles for better performance."
+    },
+    "enable-tps-bypass": {
+      "name": "Enable TPS Bypass",
+      "type": "bool",
+      "default": false,
+      "description": "Activate custom TPS for smoother gameplay."
+    },
+    "tps-bypass": {
+      "name": "TPS Bypass (Hz)",
+      "type": "int",
+      "default": 240,
+      "enable-if": "enable-tps-bypass",
+      "description": "Put the number of TPS here."
+    },
+    "enable-fps-bypass": {
+      "name": "Enable FPS Bypass",
+      "type": "bool",
+      "default": false,
+      "description": "Allows modifying the FPS (frames per second)."
+    },
+    "fps-bypass": {
+      "name": "FPS Value",
+      "type": "float",
+      "default": 60.0,
+      "description": "Set the FPS (frames per second) value. Don't put 100k.",
+      "min": 1.0,
+      "max": 100000.0,
+      "enable-if": "enable-fps-bypass"
+    }
+  }
+}

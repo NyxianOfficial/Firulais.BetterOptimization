@@ -1,4 +1,9 @@
-# BetterOptimization
+# BetterOptimization - v1.0.1
+
+**Autor / Developer:** FirulaisGD  
+**Compatible con Geometry Dash 2.2074** (Android, Windows, Mac, iOS)
+
+---
 
 ## Espanol
 
