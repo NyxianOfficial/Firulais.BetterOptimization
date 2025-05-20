@@ -36,19 +36,6 @@
       "default": false,
       "description": "Disables all particles for better performance."
     },
-    "enable-tps-bypass": {
-      "name": "Enable TPS Bypass",
-      "type": "bool",
-      "default": false,
-      "description": "Activate custom TPS for smoother gameplay."
-    },
-    "tps-bypass": {
-      "name": "TPS Bypass (Hz)",
-      "type": "int",
-      "default": 240,
-      "enable-if": "enable-tps-bypass",
-      "description": "Put the number of TPS here."
-    },
     "enable-fps-bypass": {
       "name": "Enable FPS Bypass",
       "type": "bool",
